@@ -40,5 +40,3 @@ create table performance
             rating_2022 varchar(40),
             rating_2023 varchar(40),
             rating_2024 varchar(40) );
-git config --global user.name "Sabarishree_K"
-git config --global user.email "sabarishree@gmail.com"
