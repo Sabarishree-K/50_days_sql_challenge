@@ -40,3 +40,11 @@ create table performance
             rating_2022 varchar(40),
             rating_2023 varchar(40),
             rating_2024 varchar(40) );
+
+use [50_days_sql_challenge];            
+
+select  *  into cleaned_deparments from departments;
+select  *  into cleaned_employees from employees;
+select  *  into cleaned_salaries from salaries;
+select  *  into cleaned_attendance from attendance;
+select  *  into cleaned_performance from performance;
