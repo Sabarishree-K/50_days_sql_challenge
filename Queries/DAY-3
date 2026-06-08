@@ -1,0 +1,89 @@
+
+use [50_days_sql_challenge];
+
+update cleaned_employees 
+set emp_name ='unknown'
+where emp_name is null or emp_name = '' or emp_name = 'NULL';
+
+--- set city = delhi for emp_id = 13 ----
+
+update cleaned_employees 
+set city = 'delhi'
+where emp_id = 13
+
+--- */ set city = delhi for all the records 
+---    where city is null or empty string  /* ----
+
+update cleaned_employees 
+set city = 'delhi'
+where city is null or city = '' 
+
+select * from cleaned_employees
+where city = 'NULL'
+
+update cleaned_employees 
+set city = 'delhi'
+where city = 'NULL'
+
+update cleaned_employees 
+set city = 'delhi'
+where city = 'dlhi'
+
+--- set age = unknown for all the records where age is empty string--
+
+select * from cleaned_employees
+where age = '';
+
+update cleaned_employees
+set age = 'unknown'
+where age = '';
+
+--- set rating_2023 = unknown for all the records where rating_2023 is empty string --- 
+
+select * from cleaned_performance
+where rating_2023 = '';
+
+update cleaned_performance
+set rating_2023 = 0
+where rating_2023 = '';
+
+select * from cleaned_performance
+where rating_2023 = 0 ;
+
+--- Find duplicate values ---
+
+--- For Employees table ---
+
+select emp_id,emp_name,city, count(*) as count
+from cleaned_employees
+group by emp_id,emp_name,city
+having count(*) > 1;
+
+--- For Departments table ---
+
+select dept_id,dept_name, count(*) as count
+from cleaned_departments   
+group by dept_id,dept_name
+having count(*) > 1;    
+
+--- For Attendance table ---
+
+select attendance_id,emp_id,attendance_date, count(*) as count
+from cleaned_attendance         
+group by attendance_id,emp_id,attendance_date
+having count(*) > 1;
+
+--- For Salaries table ---
+
+select salary_id,emp_id,salary_date, count(*) as count
+from cleaned_salaries   
+group by salary_id,emp_id,salary_date
+having count(*) > 1;
+
+--- For Performance table ---
+
+select emp_id, rating_2022, rating_2023, rating_2024, count(*) as count
+from cleaned_performance        
+group by emp_id, rating_2022, rating_2023, rating_2024
+having count(*) > 1;
+
