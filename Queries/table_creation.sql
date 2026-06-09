@@ -1,4 +1,5 @@
 use [50_days_sql_challenge]
+
 create table departments
          ( dept_id varchar(40),
            dept_name varchar(40)); 
