@@ -1,0 +1,15 @@
+Day 5: Data Cleaning (Handling Invalid Values)
+Objective
+Identify and fix logically incorrect or invalid values in the dataset.
+Tasks Completed
+Detected invalid values (negative salary, invalid age, incorrect ratings)
+Applied business rules to define valid ranges
+Replaced incorrect values using client-provided data
+Used CASE WHEN and JOIN-based updates for corrections
+Ensured no assumption-based fixes were applied
+Key Learning
+Invalid values are not always missing but logically incorrect
+Data should be corrected using trusted sources (client/system)
+Never blindly manipulate values without business context
+Outcome
+Dataset now contains only valid and reliable values, improving data accuracy.

@@ -32,15 +32,6 @@ update cleaned_employees
 set city = 'delhi'
 where city is null or city = '' 
 
---- set age = unknown for all the records where age is empty string--
-
-select * from cleaned_employees
-where age = '';
-
-update cleaned_employees
-set age = 'unknown'
-where age = '';
-
 --- set rating_2023 = unknown for all the records where rating_2023 is empty string --- 
 
 select * from cleaned_performance
