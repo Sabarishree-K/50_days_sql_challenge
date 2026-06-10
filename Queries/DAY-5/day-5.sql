@@ -1,4 +1,6 @@
 
+use [50_days_sql_challenge];
+
 --- check for invalid data---
 
 --- invalid age (rule : min - 18 and max - 65) ---
