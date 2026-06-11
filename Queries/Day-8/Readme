@@ -1,0 +1,9 @@
+
+Day 6: Data Cleaning
+
+Identified leading and trailing spaces in emp_name column
+Removed unwanted spaces using TRIM() to ensure consistency
+Checked data types across all tables (employees, departments, salary, performance, attendance)
+Detected incorrect data types affecting joins and analysis
+Converted columns to appropriate data types (INT, VARCHAR, DATE, DECIMAL)
+Ensured uniform structure across all tables for accurate querying
