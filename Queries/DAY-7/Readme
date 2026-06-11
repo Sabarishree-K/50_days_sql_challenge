@@ -1,0 +1,10 @@
+
+Day 7: Data Cleaning
+
+Objective: Date format fixing
+
+Identified inconsistent date formats in multiple columns (salary_date, attendance_date, hire_date)
+Detected invalid values (e.g., wrong month, incomplete year, incorrect patterns) using SQL Server's try_convert functions.
+Replaced incorrect dates with NULL to avoid misleading data
+Standardized all valid dates into a uniform format (YYYY-MM-DD) using SQL Server's convert function convert(varchar, date_column, 23).
+Ensured consistency across all date-related columns
