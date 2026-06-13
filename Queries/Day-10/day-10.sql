@@ -29,7 +29,7 @@ where a.status is null;
 
 --- 4. What is the employee name, department, and salary together? ---
 
-select e.emp_id,e.emp_name,d.dept_name,s.salary 
+select e.emp_id,e.emp_name,d.dept_name,s.salary
 from cleaned_employees e 
 INNER JOIN cleaned_departments d  
 on e.dept_id = d.dept_id
