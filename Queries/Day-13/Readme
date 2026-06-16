@@ -1,0 +1,5 @@
+Day 13: SQL Tasks
+• List employees earning more than average salary
+• List employees with salary equal to maximum salary
+• List employees earning less than average salary
+• List employees with minimum salary
