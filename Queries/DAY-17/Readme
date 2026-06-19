@@ -1,0 +1,5 @@
+Day 17: SQL Tasks (GROUP BY + HAVING)
+• List employees with more than 2 salary records
+• List departments with more than 3 employees
+• List employees with total salary greater than 100000
+• List departments with high average salary (greater than 50000)

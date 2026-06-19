@@ -1,0 +1,5 @@
+Day 15: SQL Tasks (EXISTS / NOT EXISTS)
+• List employees with salary records (at least once)
+• List employees without salary records
+• List employees with attendance records
+• List employees without attendance records
