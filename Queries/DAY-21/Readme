@@ -1,0 +1,6 @@
+Day 21 : SQL Tasks (RANK & DENSE_RANK)
+• Rank employees based on salary
+• Perform department-wise ranking of employees
+• Identify top performers based on average performance rating
+• Find top 3 employees based on salary ranking
+• Find top 3 employees from each dept based on salary ranking
