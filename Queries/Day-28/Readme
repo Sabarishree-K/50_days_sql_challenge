@@ -1,0 +1,5 @@
+Day 28: SQL Tasks (Advanced Analysis & Ranking)
+• Find top 2 highest paid employees in each department
+• Calculate salary gap (difference between current salary and previous salary)
+• Calculate performance gap (change in performance between years)
+• Filter only top performers based on ranking
