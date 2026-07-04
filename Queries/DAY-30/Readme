@@ -1,0 +1,5 @@
+Day 30: SQL Tasks (CTE – Common Table Expressions)
+• Create a temporary result set using CTE and filter data from it
+• Combine employees and salaries using CTE
+• Calculate department average salary using CTE
+• Find employees earning more than department average using CTE
