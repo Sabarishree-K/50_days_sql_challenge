@@ -1,0 +1,5 @@
+Day 40: SQL Tasks (Temporary Tables)
+• Create temporary table for employee salary summary
+• Insert aggregated salary data into temporary table
+• Join temporary table with employee table to fetch employee details
+• Drop temporary table after usage
