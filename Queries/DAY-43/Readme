@@ -1,0 +1,7 @@
+Day 43: SQL Tasks (Date Formatting, Data Types & Constraints)
+• Standardize and format date columns using STR_TO_DATE()
+• Convert dates into proper SQL DATE format
+• Fix incorrect data types across all cleaned tables
+• Modify columns using appropriate data types (INT, VARCHAR, DECIMAL, DATE)
+• Add Primary Key constraints to tables
+• Add Foreign Key constraints to maintain relationships between tables
