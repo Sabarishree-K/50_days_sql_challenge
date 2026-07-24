@@ -1,0 +1,8 @@
+Day 47: SQL Tasks (Order Analysis)
+1.Find number of orders placed daily.
+2.Find monthly order trend.
+3.Find the highest value order.
+4.Find the lowest value order.
+5.Find average quantity per order.
+6.Categorize orders by quantity size (Small / Medium / Large Orders).
+7.Find the day with the highest number of orders.
