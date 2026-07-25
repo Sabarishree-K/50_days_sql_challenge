@@ -93,6 +93,7 @@ order by no_of_customers desc;
 create procedure customer_revenue_report
 as  
 BEGIN
+    set nocount on;
 
     select c.customer_id, c.customer_name, c.city,sum(p.payment_amount) as total_revenue
     from clean_customers c  
@@ -102,5 +103,9 @@ BEGIN
     order by total_revenue desc;
 
 END;
+GO
 
 exec customer_revenue_report;
+GO 
+
+drop procedure customer_revenue_report
