@@ -5,4 +5,4 @@ Day 49: SQL Tasks (Advanced Business Analysis – CTE, Ranking & Stored Procedur
 4. Rank products based on quantity sold using RANK().
 5. Find category-wise revenue using CTE.
 6. Categorize customers into High, Medium, and Low Revenue groups using CASE.
-7. Create Stored Procedure for Customer Revenue Report.  
+7. Create Stored Procedure for Customer Revenue Report.       

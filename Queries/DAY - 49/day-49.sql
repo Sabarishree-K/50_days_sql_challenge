@@ -90,6 +90,7 @@ order by no_of_customers desc;
 
 --- 7. Create Stored Procedure for Customer Revenue Report.  -------------
 
+GO
 create procedure customer_revenue_report
 as  
 BEGIN
@@ -107,5 +108,3 @@ GO
 
 exec customer_revenue_report;
 GO 
-
-drop procedure customer_revenue_report
