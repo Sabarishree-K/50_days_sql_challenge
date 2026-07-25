@@ -1,0 +1,8 @@
+Day 49: SQL Tasks (Advanced Business Analysis – CTE, Ranking & Stored Procedures)
+1. Find Top 5 Customers by Revenue using CTE.
+2. Find Top 5 Products by Quantity Sold using CTE.
+3. Rank customers based on generated revenue using DENSE_RANK().
+4. Rank products based on quantity sold using RANK().
+5. Find category-wise revenue using CTE.
+6. Categorize customers into High, Medium, and Low Revenue groups using CASE.
+7. Create Stored Procedure for Customer Revenue Report.
